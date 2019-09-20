@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:victorhqc/color-indent.git"
+    "url": "git@github.com:victorhqc/language-prisma.git"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
