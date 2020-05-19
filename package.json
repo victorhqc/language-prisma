@@ -8,7 +8,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron-rebuild": "electron-rebuild --version 5.0.13 --which-module canvas --force",
+    "rebuild": "npm run electron-rebuild",
+    "postinstall": "./postinstall.sh"
   },
   "author": "Victor Quiroz Castro <victorhqc@gmail.com>",
   "license": "MIT",
@@ -21,5 +24,8 @@
   },
   "dependencies": {
     "tree-sitter-prisma": "1.0.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0"
   }
 }
