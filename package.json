@@ -1,6 +1,6 @@
 {
   "name": "language-prisma",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prisma Language for Atom",
   "keywords": [
     "prisma",
@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "electron-rebuild": "electron-rebuild --version 5.0.13 --which-module canvas --force",
+    "electron-rebuild": "electron-rebuild --version 6.1.12 --which-module canvas --force",
     "rebuild": "npm run electron-rebuild",
     "postinstall": "./postinstall.sh"
   },
